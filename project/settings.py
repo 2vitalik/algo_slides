@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-_9$vd1ovpzc6o-gw292%w=#39ri(pqsycx0^k*ps)*-n$igir0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'algo.slides.in.ua',
+]
 
 
 # Application definition
